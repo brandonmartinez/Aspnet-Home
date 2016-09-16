@@ -104,7 +104,7 @@ Set-Variable -Option Constant "HomeEnvVar" "DNX_HOME"
 
 Set-Variable -Option Constant "RuntimeShortFriendlyName" "DNX"
 
-Set-Variable -Option Constant "DNVMUpgradeUrl" "https://raw.githubusercontent.com/aspnet/Home/dev/dnvm.ps1"
+Set-Variable -Option Constant "DNVMUpgradeUrl" "https://raw.githubusercontent.com/brandonmartinez/Aspnet-Home/dev/dnvm.ps1"
 
 Set-Variable -Option Constant "AsciiArt" @"
    ___  _  ___   ____  ___
