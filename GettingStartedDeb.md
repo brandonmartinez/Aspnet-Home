@@ -125,7 +125,7 @@ Now let's get DNVM. To do this run:
 
 ```
 sudo apt-get install unzip
-curl -sSL https://raw.githubusercontent.com/brandonmartinez/Aspnet-Home/dev/dnvminstall.sh | DNX_BRANCH=dev sh && source ~/.dnx/dnvm/dnvm.sh
+curl -sSL https://raw.githubusercontent.com/aspnet/Home/dev/dnvminstall.sh | DNX_BRANCH=dev sh && source ~/.dnx/dnvm/dnvm.sh
 ```
 
 Once this step is complete you should be able to run `dnvm` and see some help text.
