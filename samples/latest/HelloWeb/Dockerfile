@@ -7,7 +7,7 @@ ENV DNX_USER_HOME /opt/dnx
 
 RUN apt-get -qq update && apt-get -qqy install curl unzip mono-complete
 
-RUN curl -sSL https://raw.githubusercontent.com/aspnet/Home/dev/dnvminstall.sh | DNX_USER_HOME=$DNX_USER_HOME DNX_BRANCH=v$DNX_VERSION sh
+RUN curl -sSL https://raw.githubusercontent.com/brandonmartinez/Aspnet-Home/dev/dnvminstall.sh | DNX_USER_HOME=$DNX_USER_HOME DNX_BRANCH=v$DNX_VERSION sh
 RUN bash -c "source $DNX_USER_HOME/dnvm/dnvm.sh \
 	&& dnvm upgrade -u \
 	&& dnvm alias default | xargs -i ln -s $DNX_USER_HOME/runtimes/{} $DNX_USER_HOME/runtimes/default"
